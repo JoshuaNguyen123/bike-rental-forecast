@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# CmdStanPy & Prophet output
+cmdstan-*
+
+# Ignore generated plots
+bike_rental_forecast/outputs/
