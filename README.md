@@ -1,8 +1,8 @@
-# 🚲 Bike Rental Forecast with Facebook Prophet
+# Bike Rental Forecast with Facebook Prophet
 
 This project uses the UCI Bike Sharing Dataset to forecast daily bike rentals using Facebook Prophet.
 
-## 📁 Project Structure
+## Project Structure
 
 bike_rental_forecast/
 ├── main.py ← entry point
@@ -16,7 +16,7 @@ bike_rental_forecast/
 └── eda_and_preprocessing.ipynb
 
 
-## 🚀 How to Run
+## How to Run
 
 1. Clone the repo
 2. (Optional) Create a virtual environment:
@@ -39,6 +39,6 @@ bike_rental_forecast/
     bike_rental_forecast/outputs/forecast_plot.png
     ```
 
-## 📈 Sample Output
+## Sample Output
 
 ![Forecast Plot](bike_rental_forecast/outputs/forecast_plot.png)

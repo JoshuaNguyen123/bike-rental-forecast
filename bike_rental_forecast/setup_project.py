@@ -16,7 +16,7 @@ folders = [
 for folder in folders:
     os.makedirs(folder, exist_ok=True)
 
-print("✅ Folder structure created inside", PROJECT_ROOT)
+print("Folder structure created inside", PROJECT_ROOT)
 
 # Download and extract dataset into data folder
 url = "https://archive.ics.uci.edu/ml/machine-learning-databases/00275/Bike-Sharing-Dataset.zip"
@@ -24,4 +24,4 @@ response = requests.get(url)
 with zipfile.ZipFile(io.BytesIO(response.content)) as z:
     z.extractall(f"{PROJECT_ROOT}/data")
 
-print("✅ Dataset downloaded and extracted to data/")
+print("Dataset downloaded and extracted to data/")

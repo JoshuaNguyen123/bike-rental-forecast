@@ -15,3 +15,5 @@ cmdstan-*
 
 # Ignore generated plots
 bike_rental_forecast/outputs/
+!bike_rental_forecast/outputs/forecast_plot.png
+
