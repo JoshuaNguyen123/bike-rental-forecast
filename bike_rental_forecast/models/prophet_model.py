@@ -25,5 +25,5 @@ def run_prophet_model(data_path, output_path="outputs/forecast_plot.png"):
     plt.savefig(output_path)
     plt.close()
 
-    print(f"✅ Forecast plot saved to {output_path}")
+    print(f"Forecast plot saved to {output_path}")
     return forecast
